@@ -1,0 +1,25 @@
+{
+  "name": "kintohub-moleculer",
+  "version": "1.0.0",
+  "description": "My Moleculer microservices project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "moleculer-runner",
+    "cli": "moleculer connect TCP"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "moleculer-repl": "^0.5.7"
+  },
+  "dependencies": {
+    "moleculer-web": "^0.8.5",
+    "moleculer": "^0.13.9"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
